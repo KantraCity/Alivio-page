@@ -1,0 +1,104 @@
+.about {
+    background-color: var(--co-white);
+    padding: 160px 0 60px 0;
+}
+
+/*.about__subtitle {*/
+/*    font-weight: 600;*/
+/*    font-size: 24px;*/
+/*    color: var(--co-light-black);*/
+/*}*/
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__title {
+    color: var(--co-light-green);
+    font-weight: 700;
+    font-size: 50px;
+    max-width: 500px;
+    line-height: 1.7em;
+    position: relative;
+}
+
+.about__description {
+    color: var(--co-light-black);
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 670px;
+}
+
+.about__cards {
+    margin: 80px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.about__cards .card:nth-child(2) {
+    margin: 240px 0 0;
+}
+
+.about__title::before {
+    content: "How it works";
+    position: absolute;
+    top: -42px;
+    left: 1px;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--co-light-black);
+}
+
+@media (max-width: 1231px) {
+    .about__description {
+        margin: 15px 0 0;
+    }
+
+    .about__title {
+        line-height: 1.4em;
+        text-align: left;
+    }
+
+    .about__content {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .about__cards {
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .about__cards .card:nth-child(2) {
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .about__description {
+        max-width: 550px;
+    }
+
+    .about__cards {
+        gap: 85px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about__title {
+        font-size: 40px;
+    }
+
+    .about__description {
+        font-size: 16px;
+    }
+}
+
+

@@ -38,17 +38,14 @@
     background-color: var(--co-green);
     transition: right .22s;
 }
-
+.header__nav-link:focus-visible,
 .header__nav-link:hover {
     color: var(--co-green);
+    outline: none;
 }
-
+.header__nav-link:focus-visible::after,
 .header__nav-link:hover::after {
     right: 0;
-}
-
-.header__nav-link:focus-visible{
-    outline: 2px solid var(--co-dark-green);
 }
 
 .header__actions {
