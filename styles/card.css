@@ -17,6 +17,7 @@
 }
 
 .card__description {
+    height: 96px;
     font-weight: 500;
     font-size: 20px;
     color: var(--co-light-black);
@@ -51,12 +52,6 @@
 .card__title--third::before {
     content: "03";
     left: -125px;
-}
-
-@media (max-width: 1231px) {
-    .card__description--second{
-        padding: 0 0 24px;
-    }
 }
 
 @media (max-width: 768px) {

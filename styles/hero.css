@@ -26,11 +26,6 @@
     font-size: 20px;
 }
 
-.btn--hero{
-    width: 230px;
-    height: 65px;
-}
-
 @media (max-width: 768px) {
     .hero {
         height: 700px;

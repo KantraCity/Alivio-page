@@ -55,7 +55,24 @@ h1, h2, h3, h4, h5, h6, p, figure {
     cursor: pointer;
 }
 
+.btn--hero{
+    width: 230px;
+    height: 65px;
+}
+
 .btn--signin {
     background-color: transparent;
     color: var(--co-black);
+}
+
+.btn--success {
+    margin: 50px 0 0;
+    width: 240px;
+    height: 65px;
+}
+
+.btn--success:hover,
+.btn--success:focus-visible{
+    outline: 2px solid var(--co-white);
+    cursor: pointer;
 }
