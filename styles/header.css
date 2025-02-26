@@ -70,4 +70,13 @@
     .header__nav {
         display: none;
     }
+    .header__wrapper {
+        padding: 0 0 0 40px;
+    }
+}
+
+@media(max-width: 480px) {
+    .btn--header {
+        width: 90px;
+    }
 }
